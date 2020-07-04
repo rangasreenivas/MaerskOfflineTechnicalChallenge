@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Job Traking</title>
+    
+</head>
+<body>
+    <h1>Job Tracking</h1>
+   
+    <br />
+       <p id="counter" style="display:none;"></p>
+
+    <table cellpadding="1" cellspacing="0" border="1">
+        <tr>
+            <th>Job ID</th>
+            <th>Created Date</th>
+            <th>Duration</th>
+            <th>Status</th>           
+        </tr>
+        <tbody id="jobs"></tbody>
+    </table>
+
+    <script src="js/site.js" asp-append-version="true"></script>
+    <script type="text/javascript">
+        getJobs();
+    </script>
+</body>
+</html>
